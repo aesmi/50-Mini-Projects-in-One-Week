@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Rotating Navigation</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="circle-container">
+        <div class="circle">
+          <button id="close">
+            <i class="fas fa-times"></i>
+          </button>
+          <button id="open">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+      </div>
+
+      <div class="content">
+        <h1>Red Velvet</h1>
+        <small>Seulgi</small>
+        <p>
+          Early life Seulgi, was born in Ansan, Gyeonggi, South Korea. Her
+          family consists of her parents and older brother. At the age of 13,
+          Seulgi made a successful audition to SM Entertainment, and trained for
+          seven years learning singing, dancing and playing various musical
+          instruments, before becoming a K-pop idol. She is a graduate of School
+          of Performing Arts Seoul.
+        </p>
+
+        <h3>Red Velvet</h3>
+        <img
+          src="https://images.wallpapersden.com/image/download/seulgi-red-velvet-2020_bGhobG6UmZqaraWkpJRmbmdlrWZlbWU.jpg"
+          alt="seulgi"
+        />
+        <p>
+          On August 1 2014, she finally debuted with Red Velvet. In January
+          2015, she starred in a musical arranged by the company entitled School
+          Oz, playing the lead role of Dorothy. In July 2016, she released the
+          song "Don't Push Me" with Wendy as part of the soundtrack of the KBS2
+          drama, Uncontrollably Fond. Seulgi, Wendy and other SM artists
+          released a digital single titled "Sound of Your Heart" for SM Station
+          on December 30. In January 2017, she released the song "You're the
+          Only One I See" with Wendy as part of the soundtrack of the KBS2
+          drama, Hwarang: The Poet Warrior Youth. She also released a duet
+          titled "Darling U" with Super Junior's Yesung on January 22, as part
+          of SM Station.
+        </p>
+      </div>
+    </div>
+
+    <nav>
+      <ul>
+        <li><i class="fas fa-home"></i> Home</li>
+        <li><i class="fas fa-user-alt"></i> About</li>
+        <li><i class="fas fa-envelope"></i> Contact</li>
+      </ul>
+    </nav>
+    <script src="script.js"></script>
+    <audio controls autoplay loop>
+      <source src="audio.mp3" type="audio/ogg" />
+      <embed
+        src="audio.mp3"
+        autostart="true"
+        loop="true"
+        hidden="true"
+      />
+      <p>
+        If you are reading this, it is because your browser does not support the
+        audio element.
+      </p>
+    </audio>
+  </body>
+</html>
