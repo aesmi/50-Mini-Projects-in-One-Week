@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@1,500&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  color: #fff;  
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.container {
+  background-color: rgba(25,25,25,0.25);
+  padding: 20px 40px;
+  box-shadow: 0px 0px 10px 5px #99ccff;
+  border-radius: 20px;
+}
+
+.container:hover{
+  box-shadow: 0px 0px 30px 5px #99ccff;
+}
+
+/* form title text*/
+.container h1{
+  text-align: center;
+  margin-bottom: 30px;
+  color: #fff;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+/*key frames*/
+@keyframes glow{
+  from {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #e60073, 0 0 20px #e60073, 0 0 25px #e60073, 0 0 30px #e60073, 0 0 35px #e60073;
+  }
+  to {
+    text-shadow: 0 0 10px #fff, 0 0 15px #ff4da6, 0 0 20px #ff4da6, 0 0 25px #ff4da6, 0 0 30px #ff4da6, 0 0 35px #ff4da6, 0 0 40px #ff4da6;
+  }
+}
+
+/* register iink*/
+.container a {
+  text-decoration: none;
+  color: lightblue;
+}
+
+.btn{
+  /* finger pointer thing*/
+  cursor: pointer;
+  /* in-line block*/
+  display: inline-block;
+  /* take up whole span*/
+  width: 100%;
+  background: lightblue;
+  outline-color: black;
+  padding: 15px;
+  font-family: inherit;
+  font-size: 16px;
+  border: 0;
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px 5px #99ccff;
+}
+
+.btn span{
+  color:white;
+  font-weight: bold;
+}
+
+.btn:focus{
+  outline: 0;
+}
+
+.btn::after{
+  outline: 0;
+  opacity: 0;
+  box-shadow: 0px 0px 30px 5px #99ccff;
+  transition: opacity 1s ease-in-out;
+}
+
+.btn:hover::after{
+  opacity: 1;
+}
+
+.btn:active{
+  transform: scale(0.98);
+}
+
+.text{
+  margin-top: 30px;
+}
+
+/* form*/
+.form-control {
+  position: relative;
+  margin: 20px 0 40px;
+}
+
+.form-control input{
+  background-color: transparent;
+  border: 0;
+  border-bottom: 2px #fff solid;
+  /* block	Displays an element as a block element (like <p>). It starts on a new line, and takes up the whole width */
+  display: block; 
+  width: 100%;
+  padding: 15px 15px;
+  font-size: 18px;
+  color: #fff;
+}
+
+.form-control input:focus, .form-control{
+  /* Removes outline*/
+  outline: 0;
+}
+
+.form-control label{
+  position: absolute;
+  top: 15px;
+  left: 0;
+  pointer-events: none;
+}
+
+.form-control label span{
+  display: inline-block;
+  font-size: 18px;
+  min-width: 5px;
+  transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  
+}
+
+/*key frames*/
+@keyframes subtleglow{
+  from {
+    text-shadow: 0px 0px 20px #99ccff;
+  }
+  to {
+    text-shadow: 0px 0px 10px #ff4da6,;
+  }
+}
+
+.form-control input:focus + label span,
+.form-control input:valid + label span {
+  animation: subtleglow 1s ease-in-out infinite alternate;
+  transform: translateY(-30px);
+}

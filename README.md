@@ -8,3 +8,7 @@ Gotta go fast
 Day 1
 ----------
 Completed: Expanding Cards, Progress Steps, Rotating Navigation, Hidden Search, Blurry Loading
+
+Day 2
+----------
+Completed: Split Screen Landing (Might make this into a serverless app for fun), Form Wave Animation (Plans to turn into a React component),
