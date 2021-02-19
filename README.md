@@ -7,4 +7,4 @@ Gotta go fast
 
 Day 1
 ----------
-Completed: Expanding Cards, Progress Steps
+Completed: Expanding Cards, Progress Steps, Rotating Navigation, Hidden Search, Blurry Loading
