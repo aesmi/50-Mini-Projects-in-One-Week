@@ -11,4 +11,4 @@ Completed: Expanding Cards, Progress Steps, Rotating Navigation, Hidden Search, 
 
 Day 2
 ----------
-Completed: Split Screen Landing (Might make this into a serverless app for fun), Form Wave Animation (Plans to turn into a React component),
+Completed: Split Screen Landing (Might make this into a serverless app for fun), Form Wave Animation (Plans to turn into a React component), Event Keycode (Need to customize styles)
