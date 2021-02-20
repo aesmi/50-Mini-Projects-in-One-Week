@@ -12,3 +12,7 @@ Completed: Expanding Cards, Progress Steps, Rotating Navigation, Hidden Search, 
 Day 2
 ----------
 Completed: Split Screen Landing (Might make this into a serverless app for fun), Form Wave Animation (Plans to turn into a React component), Event Keycode (Need to customize styles), Hydrobuddy (Incomplete), Pokedex (Plans to turn into a React app), Image Carousel
+
+Day 3
+----------
+Completed: Kinetic Loader, Image Feed (Plans to add infinite scroll/fetch), Hoverboard (Plans to customize this later on), Login Password Strength Blur (Buggy af)
