@@ -21,15 +21,17 @@ body {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  max-width: 400px; 
+  max-width: 1200px; 
+  max-height: 800px;
+  overflow: hidden;
 }
 
 .square{
   border: 1px solid white;
   background-color:  rgba(0,0,0,1);
   box-shadow: 0 0 2px#000;
-  height: 16px;
-  width: 16px;
+  height: 30px;
+  width: 30px;
   margin:2px;
   transition:2s ease;
 }
