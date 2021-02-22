@@ -3,7 +3,7 @@ let load = 0
 let int = setInterval(blurring, 15)
 const textEl = document.createElement("div");
 document.body.appendChild(textEl);
-textEl.setAttribute("class", ".loading-text");
+textEl.classList.add(".loading-text");
 textEl.innerHTML=("0%");
 
 function initPixi() {
@@ -45,10 +45,7 @@ function animate() {
 initPixi();
 
 
-const loadText = document.querySelector('.loading-text')
 const bg = document.getElementsByTagName('canvas')[0]
-console.log(document.getElementsByTagName('canvas'))
-console.log(document.getElementsByTagName('canvas')[0])
 
 function blurring() {
   load++
@@ -57,8 +54,8 @@ function blurring() {
     clearInterval(int)
   }
 
-  loadText.innerText = `${load}%`
-  loadText.style.opacity = scale(load, 0, 100, 1, 0)
+  textEl.innerText = `${load}%`
+  textEl.style.opacity = scale(load, 0, 100, 1, 0)
   bg.style.filter = `blur(${scale(load, 0, 100, 30, 0)}px)`
 }
 

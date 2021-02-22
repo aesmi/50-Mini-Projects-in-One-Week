@@ -16,6 +16,11 @@ body {
 
 canvas {
   z-index: -1;
+  position: absolute;
+  top: -30px;
+  left: -30px;
+  width: calc(100vw + 60px);	
+  height: calc(100vh + 60px);
 }
 
 .loading-text {

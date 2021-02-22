@@ -16,3 +16,7 @@ Completed: Split Screen Landing (Might make this into a serverless app for fun),
 Day 3
 ----------
 Completed: Kinetic Loader, Image Feed (Plans to add infinite scroll/fetch), Hoverboard (Plans to customize this later on), Login Password Strength Blur (Buggy af)
+
+Day 4
+----------
+Completed: 3D Boxes

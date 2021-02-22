@@ -64,10 +64,31 @@ body {
 
 .box {
   background: url("https://i.pinimg.com/originals/30/5d/b7/305db7b41091f0cdd7b4760476b09457.gif");
-  background-size:100% 100%;
   background-repeat: no-repeat;
   background-size: 500px 500px;
   position: relative;
   height: 125px;
   width: 125px;
+}
+
+.box::after {
+  content: '';
+  background-color: #757575;
+  position: absolute;
+  top: 8px;
+  right: -15px;
+  height: 100%;
+  width: 15px;
+  transform: skewY(45deg);
+}
+
+.box::before {
+  content: '';
+  background-color: #505050;
+  position: absolute;
+  bottom: -15px;
+  left: 8px;
+  height: 15px;
+  width: 100%;
+  transform: skewX(45deg);
 }
