@@ -20,3 +20,7 @@ Completed: Kinetic Loader, Image Feed (Plans to add infinite scroll/fetch), Hove
 Day 4
 ----------
 Completed: 3D Boxes
+
+Day 5
+----------
+Completed: 
