@@ -56,6 +56,9 @@ body {
   background-color: #fff;
   list-style-type: none;
   margin: 0;
+  padding: 0;
+  max-height: 400px;
+  overflow-y: auto;
 }
 
 .user-list li{
@@ -65,11 +68,76 @@ body {
 
 .user-list img{
   border-radius: 50%;
+  /* whole image shows */
   object-fit: cover;
   height: 50px;
   width: 50px;
 }
 
 .user-list .user-info{
-  margin-left: 10px;
+  margin-left: 30px;
+}
+
+.userlist .user-info h4{
+  margin: 0 0 10px;
+}
+
+.userlist .user-info p {
+  font-size: 12px;
+}
+
+/* removes the border on the bottom */
+.user-list li:not(:last-of-type) {
+  border-bottom: 1px solid #eee;
+}
+
+.user-list li.hide {
+  display: none;
+}
+
+/* kinetic loader */
+
+.kinetic {
+  position: relative;
+  height: 100px;
+  width: 100px;
+}
+
+.kinetic::after, .kinetic::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border: 50px solid transparent;
+  /* creates triangle since the top and bottom are white*/
+  border-bottom-color: #fff;
+  /* adding out rotateA keyframe to our styling using animation*/
+  animation: rotateA 2s linear infinite 0.5s;
+}
+
+.kinetic::before {
+  transform: rotate(90deg);
+  animation: rotateB 2s linear infinite;
+}
+
+@keyframes rotateA {
+  0%, 25%{
+    transform: rotate(0deg);
+  } 50%,75%{
+    transform: rotate(180deg);
+  } 100%{
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotateB{
+  0%, 25%{
+    transform: rotate(90deg);
+  } 50%,75%{
+    transform: rotate(270deg);
+  } 100%{
+    transform: rotate(450deg);
+  }
 }
