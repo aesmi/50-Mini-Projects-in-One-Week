@@ -31,9 +31,12 @@ body {
   height: 100vh;
   overflow: hidden;
   margin: 0;
+  
 }
 
 .toggle {
+  z-index: 100;
+  display: block;
   cursor: pointer;
   background-color: var(--primary-color);
   color: var(--secondary-color);
@@ -43,6 +46,7 @@ body {
   position: absolute;
   top: 10vh;
   box-shadow: 0 0 5px 5px var(--primary-color);
+  text-shadow: 0 0 5px 5px var(--secondary-color);
 }
 
 .toggle:focus {
