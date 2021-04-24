@@ -2,6 +2,8 @@
 
 Didn't finish in 2 weeks, lost motivation :(
 
+Most of the stuff here can be found on my codepen: https://codepen.io/mimikyuwu
+
 One Week: 50 projects
 ============================
 Projects here are all from Traversity Media's 50 Projects in 50 days course but I am trying to speedrun it in a week because why not?
