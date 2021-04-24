@@ -1,6 +1,6 @@
 # 50-Mini-Projects-in-Two-Weeks
 
-Yes I know it says one week but it was too ambitious of a time line. Considering this course was supposed to last 50 days I think finishing it in 2 weeks is still pretty committed!
+Didn't finish in 2 weeks, lost motivation :(
 
 One Week: 50 projects
 ============================
